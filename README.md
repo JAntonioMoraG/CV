@@ -1,2 +1,3 @@
 # CV
-Este proyecto fue realizado en mi curso de DEVF como parte de proyecto de Front-End
+## Este proyecto fue realizado por mí, Jose Antonio Mora Guzman 
+Todo este proyecto fue realizado durante mi curso de DEVF como mi primer proyecto de Front-End y corresponde a un CV 
