@@ -1,0 +1,96 @@
+@font-face {
+    font-family: texto;
+    src: url(./fonts/Blah!.ttf);
+}
+*{
+    background-color: #333333;
+    font-family: texto;
+}
+:root {
+    --bg: #dcdde1;     
+    --color-icon: #535c68;  
+}
+.titulos{
+    font-size: 40px;
+    color: #FFF;
+}
+.textoplano{
+    font-size: 20px;
+    color: #FFF;
+}
+.listas{
+    list-style: none;
+    font-size: 20px;
+    color: #FFF;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.flexcontainer{
+    display: flex;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    width: 44vh;
+    height: 100vh;
+}
+/*imagen de fondo*/
+.hero-image {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("./pictures/yo2.jpg");
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+.hero-image div {
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .75);
+    text-align: center;
+}
+
+.perfil{
+    height: 20%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.icon-list {
+    list-style: none;
+    padding-left: 0;
+}
+.icon-link {  
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;  
+    text-decoration: none;  
+    color: var(--color-icon);
+    height: 6rem;   
+    transition: .5s linear;
+    position: relative;
+    z-index: 1;
+    margin-left: 0%;
+}
+.icon-link:hover {
+    color: #fff;
+}
+/*Reponsivo*/
+@media screen and (min-width: 1024px) {
+    .flex-container {
+        display: flex;
+        align-items: center;
+        }
+    .flex-item {
+        flex: 0 0 50%;
+    }  
+}
